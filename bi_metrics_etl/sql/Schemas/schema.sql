@@ -461,7 +461,7 @@ CREATE TABLE total_withdrawals_monthly (
     updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
 
--- 40
+--- 40
 CREATE TABLE total_withdrawals_cumulative (
     id BIGINT AUTO_INCREMENT PRIMARY KEY unique,
     total_completed_amount DECIMAL(18,2) NOT NULL,
