@@ -451,7 +451,7 @@ CREATE TABLE total_withdrawals_weekly (
     updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
 
--- 39
+-- -39
 CREATE TABLE total_withdrawals_monthly (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     month_ VARCHAR(7) NOT NULL unique, -- format YYYY-MM
